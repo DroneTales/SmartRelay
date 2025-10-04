@@ -33,17 +33,14 @@
 /*                                  HomeSpan sensors                                  */
 
 // Lamp relay record.
-struct LampRelay : Service::LightBulb
-{
+struct LampRelay : Service::LightBulb {
     SpanCharacteristic* FPower;
     
-    LampRelay() : Service::LightBulb()
-    {
+    LampRelay() : Service::LightBulb() {
         FPower = new Characteristic::On();
     }
     
-    bool update()
-    {
+    bool update() {
         digitalWrite(RELAY_PIN, FPower->getNewVal());
         return true;
     }
@@ -56,8 +53,7 @@ struct LampRelay : Service::LightBulb
 /*                                 Arduino  rountines                                 */
 
 // Arduino initialization routine.
-void setup()
-{
+void setup() {
     // Initialize debug serial port.
     Serial.begin(115200);
 
@@ -92,8 +88,7 @@ void setup()
 }
 
 // Arduino main loop.
-void loop()
-{
+void loop() {
     homeSpan.poll();
 }
 
