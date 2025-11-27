@@ -13,8 +13,8 @@
  - 220 resistor
  
  **Required Arduino Libraries**
- - esp32 by Espressif Systems (board) 3.2.0
- - HomeSpan 2.1.1
+ - esp32 by Espressif Systems (board) 3.3.3
+ - HomeSpan 2.1.6
  
  **Arduino IDE Settings**
  - Board: ESP32C3 Dev BModule
