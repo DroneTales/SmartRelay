@@ -22,7 +22,7 @@
 /**************************************************************************************/
 /*                                        Pins                                        */
 
-#define STATUS_LED_PIN  GPIO_NUM_5
+#define STATUS_LED_PIN  GPIO_NUM_8
 #define CONTROL_PIN     GPIO_NUM_9
 #define RELAY_PIN       GPIO_NUM_10
 
