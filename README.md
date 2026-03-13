@@ -5,7 +5,7 @@
 
  **Required Hardware**
  - Arduino Relay Module
- - ESP32C3 Dev Module
+ - ESP32C3FN4 Super Mini
  - 5V power supply
  - 3mF x 6.3V capacitor (more capacity is better)
  - 2N2904 transistor
