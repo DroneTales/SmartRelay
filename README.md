@@ -1,43 +1,44 @@
-# Smart Relay
- ESP32C3 smart relay for Apple Home Kit
+# Умное реле для Apple Home
 
- This repository contains firmware for the HomeKit device described in [this video](https://youtu.be/vQ_4E_zfgw4).
+Этот репозиторий содержит прошивку умного реле для Apple Home, о котором рассказывается в [этом видео](https://youtu.be/vQ_4E_zfgw4).
 
- **Required Hardware**
- - Arduino Relay Module
- - ESP32C3FN4 Super Mini
- - 5V power supply
- - 3mF x 6.3V capacitor (more capacity is better)
- - 2N2904 transistor
- - 1K resitor
- - 220 resistor
- 
- **Required Arduino Libraries**
- - esp32 by Espressif Systems (board) 3.3.7
- - HomeSpan 2.1.7
- 
- **Arduino IDE Settings**
- - Board: ESP32C3 Dev BModule
- - ESP CDC On Boot: Enabled
- - CPU Frequency: 80MHz (WiFi)
- - Core Debug Level: None
- - Erase All Flash Before Sketch Upload: Disabled
- - Flash frequency: 80Mhz
- - Flash Mode: QIO
- - Flash Size: 4MB (32Mb)
- - JTAG Adapter: Disabled
- - Partition Scheme: Huge APP (3MB No OTA/1MB SPIFFS)
- - Upload Speed: 921600
- - Zigbee Mode: Disabled
- - Programmer: Esptool
+**Используемые компоненты**
 
- **Support the project**
+- Иодель реле для Arduino
+- ESP32C3FN4 Super Mini
+- Блок питания на 5V
+- Конденсатор 3000мкФ x 6.3V
+- Транзистор 2N2904
+- Резисторы 1K и 220 Ом
  
- If you like the project you can support me by the following link:  
+**Используемые библиотеки Arduino**
 
- **BuyMeACoffee**: https://buymeacoffee.com/dronetales  
- **Boosty**: https://boosty.to/drone_tales/donate  
+- esp32 by Espressif Systems (board) 3.3.7
+- HomeSpan 2.1.7
  
- **BTC**: bitcoin:1A1WM3CJzdyEB1P9SzTbkzx38duJD6kau  
- **BCH**: bitcoincash:qre7s8cnkwx24xpzvvfmqzx6ex0ysmq5vuah42q6yz  
- **ETH**: 0xf780b3B7DbE2FC74b5F156cBBE51F67eDeAd8F9a  
+**Настройки Arduino IDE**
+
+- Board: ESP32C3 Dev BModule
+- ESP CDC On Boot: Enabled
+- CPU Frequency: 80MHz (WiFi)
+- Core Debug Level: None
+- Erase All Flash Before Sketch Upload: Disabled
+- Flash frequency: 80Mhz
+- Flash Mode: QIO
+- Flash Size: 4MB (32Mb)
+- JTAG Adapter: Disabled
+- Partition Scheme: Huge APP (3MB No OTA/1MB SPIFFS)
+- Upload Speed: 921600
+- Zigbee Mode: Disabled
+- Programmer: Esptool
+
+**Поддержать автора**
+ 
+Если вам интересно то, что я делаю, вы можете поддержать меня любым удобным вам способом по ссылкам ниже:  
+
+**BuyMeACoffee**: https://buymeacoffee.com/dronetales  
+**Boosty**: https://boosty.to/drone_tales/donate  
+ 
+**BTC**: bitcoin:1A1WM3CJzdyEB1P9SzTbkzx38duJD6kau  
+**BCH**: bitcoincash:qre7s8cnkwx24xpzvvfmqzx6ex0ysmq5vuah42q6yz  
+**ETH**: 0xf780b3B7DbE2FC74b5F156cBBE51F67eDeAd8F9a  
