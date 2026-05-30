@@ -1,6 +1,6 @@
 # Smart relay for Apple Home
 
-In this repository you will find a firmware and a schematic to build your own smart relay for your Apple Home. Should you have any questions please do not hesitate to contact me at gully.horror0w@icloud.com.  
+In this repository, you will find firmware and a schematic to build your own smart relay for your Apple Home. Should you have any questions, please do not hesitate to contact me at gully.horror0w@icloud.com.  
 
 **Используемые компоненты**
 
@@ -35,7 +35,7 @@ In this repository you will find a firmware and a schematic to build your own sm
 
 ## Support the author
 
-If you like what I am doing you can support me using one of the link below:
+If you like what I am doing, you can support me using one of the links below:  
 
 **BuyMeACoffee**: https://buymeacoffee.com/dronetales  
 **Boosty**: https://boosty.to/drone_tales/donate  
