@@ -1,4 +1,4 @@
-# Умное реле для Apple Home
+# Smart relay for Apple Home
 
 Этот репозиторий содержит прошивку умного реле для Apple Home, о котором рассказывается в [этом видео](https://youtu.be/vQ_4E_zfgw4).
 
