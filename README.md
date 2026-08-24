@@ -1,6 +1,6 @@
-# Smart relay for Apple Home
+# Умное реле для Apple Home
 
-In this repository, you will find firmware and a schematic to build your own smart relay for your Apple Home. Should you have any questions, please do not hesitate to contact me at gully.horror0w@icloud.com.  
+В этом репозитории вы найдете прошивку и схему для умного реле, совместимого с Apple Home. По любым вопросам вы можете смело обращаться в мой [телеграм канале](t.me/drone_tales).  
 
 **Используемые компоненты**
 
@@ -12,12 +12,12 @@ In this repository, you will find firmware and a schematic to build your own sma
 - Resistor 1K - 1 pcs.
 - Reistor 220 Ohm - 1 pcs.
  
-**Required Arduino libraries**
+**Используемые библиотеки Arduino**
 
 - esp32 by Espressif Systems (board) 3.3.7
 - HomeSpan 2.1.7
  
-**Arduino IDE settings**
+**Настройки Arduino IDE**
 
 - Board: ESP32C3 Dev BModule
 - ESP CDC On Boot: Enabled
@@ -32,11 +32,3 @@ In this repository, you will find firmware and a schematic to build your own sma
 - Upload Speed: 921600
 - Zigbee Mode: Disabled
 - Programmer: Esptool
-
-## Support the author
-
-If you like what I am doing, you can support me using one of the links below:  
-
-**BuyMeACoffee**: https://buymeacoffee.com/dronetales  
-**Boosty**: https://boosty.to/drone_tales/donate  
-**PayPal**: mike@btframework.com  
